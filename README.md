@@ -2,7 +2,15 @@
 
 ## Abstract
 
-This project presents an advanced image captioning system leveraging a combination of CNN and RNN architectures. The system employs the VGG16 model for robust image feature extraction and an LSTM-based sequence model for generating descriptive captions. The approach involves intricate preprocessing of both visual and textual data, efficient model training with a custom data generator, and effective evaluation using BLEU scores. This end-to-end system demonstrates the synergy between deep learning techniques in computer vision and natural language processing to create meaningful, contextually relevant image captions.
+This project presents a sophisticated image captioning system, employing an enhanced deep learning architecture that integrates convolutional and recurrent neural networks. At its core, the model leverages the VGG16 neural network for high-level feature extraction from images. This robust feature extraction process uses a pre-trained VGG16 model, modified by removing its top layer, to transform images into a 4096-dimensional feature vector.
+
+In the realm of textual data processing, the captions associated with images are tokenized to form a vocabulary, which is then fed into an Embedding layer. This embedding layer is crucial for translating discrete words into meaningful vector representations.
+
+The project introduces significant enhancements to the initial model architecture for improved learning capability and generalization. The image feature processing pathway includes a Dense layer with 512 units, increased dropout for regularization, and Batch Normalization for stabilizing the learning process. On the textual data side, a major improvement is the adoption of a Bidirectional LSTM layer with 512 units, which enhances the model's ability to capture context from both directions of the text sequence, augmenting the capability of the standard LSTM layers. An additional LSTM layer and Batch Normalization are also included to further refine the text processing.
+
+The model's decoder section combines the outputs of the image processing and text processing pathways. It features increased dense layer units and Batch Normalization, culminating in a Dense layer with softmax activation to generate the final caption outputs.
+
+Overall, this advanced image captioning system demonstrates a harmonious integration of CNN for feature extraction and enhanced RNNs for sequential text processing, resulting in a robust model capable of generating contextually relevant and syntactically coherent captions for a wide array of images. The model's architecture, optimized with Batch Normalization and Bidirectional LSTM, marks a significant stride in the field of automated image captioning.
 
 ## Overview
 
