@@ -1,5 +1,9 @@
 # Image Captioning with Deep Learning
 
+## Abstract
+
+This project presents an advanced image captioning system leveraging a combination of CNN and RNN architectures. The system employs the VGG16 model for robust image feature extraction and an LSTM-based sequence model for generating descriptive captions. The approach involves intricate preprocessing of both visual and textual data, efficient model training with a custom data generator, and effective evaluation using BLEU scores. This end-to-end system demonstrates the synergy between deep learning techniques in computer vision and natural language processing to create meaningful, contextually relevant image captions.
+
 ## Overview
 
 This project implements an image captioning system using a deep learning approach. It integrates a convolutional neural network (CNN) for feature extraction from images and a recurrent neural network (RNN) for generating captions. The CNN employed is VGG16, a pre-trained model, and the RNN consists of LSTM (Long Short-Term Memory) units.
@@ -105,7 +109,3 @@ def predict_caption(model, image, tokenizer, max_length):
 ### Evaluation
 
 The model's performance is evaluated using BLEU scores, which measure the quality of the generated captions compared to the actual captions.
-
-## Abstract
-
-This project presents an advanced image captioning system leveraging a combination of CNN and RNN architectures. The system employs the VGG16 model for robust image feature extraction and an LSTM-based sequence model for generating descriptive captions. The approach involves intricate preprocessing of both visual and textual data, efficient model training with a custom data generator, and effective evaluation using BLEU scores. This end-to-end system demonstrates the synergy between deep learning techniques in computer vision and natural language processing to create meaningful, contextually relevant image captions.
