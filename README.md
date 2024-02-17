@@ -13,7 +13,7 @@ The model's decoder section combines the outputs of the image processing and tex
 Overall, this advanced image captioning system demonstrates a harmonious integration of CNN for feature extraction and enhanced RNNs for sequential text processing, resulting in a robust model capable of generating contextually relevant and syntactically coherent captions for a wide array of images. The model's architecture, optimized with Batch Normalization and Bidirectional LSTM, marks a significant stride in the field of automated image captioning.
 
 ## Video Explaination
-Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)
+Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)](https://youtu.be/ZLTB8JAsjus)
 
 ## Overview
 
