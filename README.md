@@ -1,3 +1,7 @@
+## Video Explaination
+Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)](https://youtu.be/ZLTB8JAsjus)
+
+
 # Image Captioning with Deep Learning
 
 ## Abstract
@@ -11,9 +15,6 @@ The project introduces significant enhancements to the initial model architectur
 The model's decoder section combines the outputs of the image processing and text processing pathways. It features increased dense layer units and Batch Normalization, culminating in a Dense layer with softmax activation to generate the final caption outputs.
 
 Overall, this advanced image captioning system demonstrates a harmonious integration of CNN for feature extraction and enhanced RNNs for sequential text processing, resulting in a robust model capable of generating contextually relevant and syntactically coherent captions for a wide array of images. The model's architecture, optimized with Batch Normalization and Bidirectional LSTM, marks a significant stride in the field of automated image captioning.
-
-## Video Explaination
-Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)](https://youtu.be/ZLTB8JAsjus)
 
 ## Overview
 
