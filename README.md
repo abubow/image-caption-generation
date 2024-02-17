@@ -12,6 +12,9 @@ The model's decoder section combines the outputs of the image processing and tex
 
 Overall, this advanced image captioning system demonstrates a harmonious integration of CNN for feature extraction and enhanced RNNs for sequential text processing, resulting in a robust model capable of generating contextually relevant and syntactically coherent captions for a wide array of images. The model's architecture, optimized with Batch Normalization and Bidirectional LSTM, marks a significant stride in the field of automated image captioning.
 
+## Video Explaination
+Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)
+
 ## Overview
 
 This project implements an image captioning system using a deep learning approach. It integrates a convolutional neural network (CNN) for feature extraction from images and a recurrent neural network (RNN) for generating captions. The CNN employed is VGG16, a pre-trained model, and the RNN consists of LSTM (Long Short-Term Memory) units.
