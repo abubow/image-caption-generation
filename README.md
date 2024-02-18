@@ -1,6 +1,7 @@
 ## Video Explaination
 Detailed: [![Youtube](https://youtu.be/ZLTB8JAsjus)](https://youtu.be/ZLTB8JAsjus)
-
+## Kaggle Notebook
+Kaggle: [![Kaggle](https://www.kaggle.com/code/abubow/image-caption-generation-code)](https://www.kaggle.com/code/abubow/image-caption-generation-code)
 
 # Image Captioning with Deep Learning
 
